@@ -71,8 +71,8 @@
 
 function leapYears(year) {
     let leapYear = [];
-    for (let index = 0; index < year.length; index++) {
-        const element = year[index];
+    for (let i = 0; i < year.length; i++) {
+        const element = year[i];
         if (element % 4 === 0) {
             leapYear.push(element)
         }
